@@ -1,0 +1,26 @@
+@import "./main.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: $--font-family;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: $--color-bg;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

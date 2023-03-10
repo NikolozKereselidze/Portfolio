@@ -1,0 +1,74 @@
+// COLORS
+$--color-bg: #010208;
+$--color-primary: #bc3cd8;
+$--color-secondary: #e3e4e6;
+$--color-tertiary: rgba(227, 228, 230, 0.55);
+
+// TYPOGRAPHY
+$--font-family: "Work Sans", sans-serif;
+
+.heading--light {
+  font-family: $--font-family;
+  font-weight: 300;
+
+  .text--highlight {
+    color: #fff;
+  }
+
+  &-1 {
+    font-size: 5.6rem;
+    line-height: 8.4rem;
+    letter-spacing: -2%;
+  }
+
+  &-2 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+
+  &-3 {
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+  }
+
+  &-4 {
+    font-weight: 2.4rem;
+    line-height: 3.6rem;
+  }
+
+  &-5 {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+}
+
+.heading--bold {
+  font-family: $--font-family;
+  font-weight: 600;
+
+  &-1 {
+    font-size: 5.6rem;
+    line-height: 8.4rem;
+    letter-spacing: -2%;
+  }
+
+  &-2 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+
+  &-3 {
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+  }
+
+  &-4 {
+    font-weight: 2.4rem;
+    line-height: 3.6rem;
+  }
+
+  &-5 {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+}
