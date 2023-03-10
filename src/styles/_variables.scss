@@ -3,6 +3,7 @@ $--color-bg: #010208;
 $--color-primary: #bc3cd8;
 $--color-secondary: #e3e4e6;
 $--color-tertiary: rgba(227, 228, 230, 0.55);
+$--color-white: #fff;
 
 // TYPOGRAPHY
 $--font-family: "Work Sans", sans-serif;
@@ -12,7 +13,7 @@ $--font-family: "Work Sans", sans-serif;
   font-weight: 300;
 
   .text--highlight {
-    color: #fff;
+    color: $--color-white;
   }
 
   &-1 {

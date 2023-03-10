@@ -1,12 +1,13 @@
 import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import "./App.scss";
-import About from "./components/About/About";
+import Home from "./components/Home/Home";
 
 const App = () => {
   return (
-    <div className="App">
-      <About />
-    </div>
+    <BrowserRouter>
+      <Home />
+    </BrowserRouter>
   );
 };
 
