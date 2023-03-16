@@ -14,13 +14,13 @@ const Home = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li className="heading--bold heading--bold-5 heading--link">
+              <NavLink to="/Work">Work</NavLink>
+            </li>
+            <li className="heading--bold heading--bold-5 heading--link">
               <NavLink to="/About">About</NavLink>
             </li>
             <li className="heading--bold heading--bold-5 heading--link">
               <NavLink to="/Skills">Skills</NavLink>
-            </li>
-            <li className="heading--bold heading--bold-5 heading--link">
-              <NavLink to="/Work">Work</NavLink>
             </li>
             <li className="heading--bold heading--bold-5 heading--link">
               <NavLink to="/Contact">Contact</NavLink>

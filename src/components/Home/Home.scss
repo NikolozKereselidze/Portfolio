@@ -1,7 +1,7 @@
 @import "../../main.scss";
 
 .home {
-  height: 80rem;
+  min-height: 80rem;
   position: relative;
 
   &--header {
@@ -24,7 +24,7 @@
 }
 
 .header--content {
-  width: 100rem;
+  max-width: 100rem;
   text-align: center;
   color: $--color-tertiary;
 
@@ -41,8 +41,8 @@
 }
 
 .header--icon {
-  width: 4rem;
-  height: 4rem;
+  max-width: 4rem;
+  min-height: 4rem;
 
   &-arrow {
     font-size: 2.4rem;

@@ -1,9 +1,10 @@
+.text--highlight {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .heading--light {
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
-}
-.heading--light .text--highlight {
-  color: #fff;
 }
 .heading--light-1 {
   font-size: 5.6rem;
@@ -15,11 +16,11 @@
   line-height: 6rem;
 }
 .heading--light-3 {
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   line-height: 4.8rem;
 }
 .heading--light-4 {
-  font-weight: 2.4rem;
+  font-weight: 2.6rem;
   line-height: 3.6rem;
 }
 .heading--light-5 {
@@ -41,11 +42,11 @@
   line-height: 6rem;
 }
 .heading--bold-3 {
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   line-height: 4.8rem;
 }
 .heading--bold-4 {
-  font-weight: 2.4rem;
+  font-weight: 2.6rem;
   line-height: 3.6rem;
 }
 .heading--bold-5 {

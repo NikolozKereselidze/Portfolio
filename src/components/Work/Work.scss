@@ -1,0 +1,9 @@
+@import "../../main.scss";
+
+.work {
+  padding: 8rem 11rem 12rem 11rem;
+
+  &--heading {
+    color: rgba($--color-secondary, 0.7);
+  }
+}
